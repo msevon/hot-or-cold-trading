@@ -49,7 +49,7 @@ Environment variables (see `src/config.rs` for defaults):
 - `BUY_THRESHOLD`, `SELL_THRESHOLD`
 - `TEMPERATURE_WEIGHT`, `INVENTORY_WEIGHT`, `STORM_WEIGHT`
 
-## Signal Logic
+## Signal logic
 
 - **Temperature**: Colder → bullish, warmer → bearish (via HDD)
 - **Inventory**: Lower storage → bullish, higher → bearish
